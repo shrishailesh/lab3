@@ -26,8 +26,8 @@ using namespace ns3;
 
 //Setting up global variable for keeping a track of transmitted bytes and received bytes
 
-uint32_t transmitted_bytes = 0;
-uint32_t received_bytes = 0;
+uint32_t transmitted_bytes = 0;	// sent bytes
+uint32_t received_bytes = 0;	// received bytes
 
 //A simple method to update the transmitted bytes
 void Trace(Ptr<const Packet> packet_value) {
